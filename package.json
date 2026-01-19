@@ -1,7 +1,7 @@
 {
   "name": "harmonia-zed",
   "version": "1.0.0",
-  "description": "Ergonomic Zed editor calibrator for visual comfort",
+  "description": "Ergonomic editor calibrator tool for visual comfort",
   "private": true,
   "scripts": {
     "dev": "next dev",

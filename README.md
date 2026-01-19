@@ -1,13 +1,13 @@
-# Harmonia Vision for Zed
+# Harmonia
 
-Ergonomic Zed editor calibrator for visual comfort, readability, and reduced eye strain. A port of [Harmonia Vision](https://github.com/AgusRdz/harmonia-vision) by AgusRdz for the Zed editor.
+Ergonomic editor calibrator for visual comfort, readability, and reduced eye strain. A port of [Harmonia Vision](https://github.com/AgusRdz/harmonia-vision) by AgusRdz for all editors.
 
 ## Features
 
 - **Visual Profile Assessment** - Select conditions that affect your vision (myopia, astigmatism, eye strain, light sensitivity, etc.)
 - **Optional Prescription Input** - Enter your glasses prescription (Sphere/Cylinder/Axis) for more accurate recommendations
 - **Color Vision Deficiency Support** - Includes deuteranopia, protanopia, tritanopia, and achromatopsia with theme recommendations
-- **Smart Recommendations** - Get personalized Zed settings based on your visual profile
+- **Smart Recommendations** - Get personalized settings based on your visual profile
 - **Privacy-First** - All calculations run locally in your browser, no data is stored or transmitted
 
 ## Tech Stack
@@ -28,14 +28,14 @@ Ergonomic Zed editor calibrator for visual comfort, readability, and reduced eye
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/harmonia-zed.git
-cd harmonia-zed
+git clone https://github.com/jonioliveira/harmonia.git
+cd harmonia
 
 # Install dependencies
-npm install
+pnpm install
 
 # Run development server
-npm run dev
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
@@ -43,17 +43,13 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ### Build for Production
 
 ```bash
-npm run build
-npm start
+pnpm run build
+pnpm start
 ```
-
-### Deploy to Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/harmonia-zed)
 
 ## Settings Adjusted
 
-Harmonia Vision for Zed can recommend the following settings:
+Harmonia Vision can recommend the following settings:
 
 | Setting | Description | Range |
 |---------|-------------|-------|
